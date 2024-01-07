@@ -1,7 +1,7 @@
 /* Daily Trend For Orders */
 select* from pizza_sale;
 select datename(DW,order_date) as order_day, count(distinct(order_id)) as Total_Orders from pizza_sale
-  group by datename(DW,order_date)
+  group by datename(DW,order_date);
 
 /* Monthly Trend For Orders */
 select datename(Month,order_date) as Month_name, count(distinct(order_id)) as Total_Orders from pizza_sale 
