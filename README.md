@@ -1,7 +1,5 @@
 # PizzaMetrics
 
-# Pizza Sales Report
-
 ## Overview
 
 Welcome to the Pizza Sales Report repository! 
